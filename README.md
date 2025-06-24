@@ -15,7 +15,6 @@
 ---
 
 ## 2. 📁 프로젝트 구조
-
 📂 mobilebert_spotify_project/
 ├── main.py
 ├── mobilebert_project.py
@@ -33,9 +32,6 @@
 ├── saved_model/
 ├── results/
 └── README.md
-
-
-
 ---
 
 ## 3. 📊 데이터 정보 및 전처리
