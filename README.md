@@ -60,21 +60,6 @@ Weight Decay: 0.01
 | 2     | 247,092.375    | (기록됨)     | 0.81         |
 | 3     | 155,913.625    | (기록됨)     | 0.84         |
 
-### 📉 학습 손실 / 검증 정확도 그래프
-
-| Training Loss | Validation Accuracy |
-|---------------|---------------------|
-| ![](training_loss.png) | ![](validation_accuracy.png) |
-
----
-
-## 6. 🔍 예측 결과 (Confusion Matrix)
-
-- 긍정 vs 부정 리뷰 분류 성능을 시각적으로 확인할 수 있습니다.
-
-| Confusion Matrix |
-|--|
-| ![](sample_graphs/validation_accuracy.png) |
 
 
 
