@@ -119,7 +119,7 @@ mobilebert_spotify_project/
 ## 8.  참고 링크
 
 - https://huggingface.co/google/mobilebert-uncased
-- https://github.com/danmadeira/simple-icon-badges
+- https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022
 
 ---
 
