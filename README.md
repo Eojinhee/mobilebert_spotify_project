@@ -1,10 +1,12 @@
 # 🎵 MobileBERT를 활용한 Spotify 리뷰 감성 분석 프로젝트
 
-<img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Transformers-Huggingface-yellow?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Colab-FFC107?style=for-the-badge&logo=googlecolab&logoColor=black" />
-<img src="https://img.shields.io/badge/MobileBERT-uncased-success?style=for-the-badge" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Transformers-Huggingface-yellow?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Colab-FFC107?style=for-the-badge&logo=googlecolab&logoColor=black"/>
+  <img src="https://img.shields.io/badge/MobileBERT-uncased-success?style=for-the-badge"/>
+</p>
 
 ---
 
