@@ -95,7 +95,7 @@ python main.py
 ## 7.  프로젝트 구조
 
 ```
- mobilebert_spotify_project/
+mobilebert_spotify_project/
 ├── README.md
 ├── requirements.txt
 ├── main.py
