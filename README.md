@@ -1,4 +1,4 @@
-# 🎵 MobileBERT를 활용한 Spotify 리뷰 감성 분석 프로젝트
+#  MobileBERT를 활용한 Spotify 리뷰 분석 프로젝트
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white"/>
@@ -72,10 +72,10 @@ MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증�
 | 2     | 0.48           | 0.81         |
 | 3     | 0.42           | 0.84         |
 
-### 📉 Training Loss  
+###  Training Loss  
 <img src="sample_graphs/training_loss.png" width="500"/>
 
-### 📈 Validation Accuracy  
+###  Validation Accuracy  
 <img src="sample_graphs/validation_accuracy.png" width="500"/>
 
 >  MobileBERT는 epoch이 증가할수록 손실은 줄고, 정확도는 증가하는 양상을 보여 성능 개선이 잘 이뤄졌음을 확인할 수 있었습니다.
