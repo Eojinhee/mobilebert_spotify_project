@@ -16,35 +16,25 @@
 
 ## 2. 📁 프로젝트 구조
 
-mobilebert_spotify_project/
-│
-├── mobilebert_spotify/ # Fine-tuned model 저장 디렉토리
-├── results/ # 학습 중간 체크포인트
-├── sample_graphs/ # 샘플 그래프 (EDA, 학습과정 시각화)
-├── saved_model/ # 최종 저장된 모델
-│
-├── main.py # 전체 파이프라인 실행 파일
-├── mobilebert_project.py # 학습 파이프라인
-├── predict_sample.py # 예측 예시 실행용 스크립트
-├── generate_graphs.py # 시각화용 그래프 생성 코드
-├── graph_generator_extra.py # 추가 시각화 코드
-├── Confusion Matrix.py # 혼동 행렬 시각화
-│
-├── reviews.csv # 전체 리뷰 원본 데이터
-├── train_data.csv # 학습용 데이터
-├── val_data.csv # 검증용 데이터
-│
-├── training_loss.png # 학습 손실 시각화
-├── validation_accuracy.png # 검증 정확도 시각화
-├── review_length_dist.png # 문장 길이 분포
-├── label_distribution.png # 라벨 분포
-│
-├── .gitignore # Git 추적 제외 설정
-└── README.md # 프로젝트 설명 파일
+📂 mobilebert_spotify_project/
+├── main.py
+├── mobilebert_project.py
+├── predict_sample.py
+├── generate_graphs.py
+├── graph_generator_extra.py
+├── reviews.csv
+├── train_data.csv
+├── val_data.csv
+├── review_length_dist.png
+├── label_distribution.png
+├── training_loss.png
+├── validation_accuracy.png
+├── sample_graphs/
+├── saved_model/
+├── results/
+└── README.md
 
-yaml
-복사
-편집
+
 
 ---
 
