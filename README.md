@@ -10,14 +10,14 @@
 
 ---
 
-## 1. 📌 프로젝트 개요
+## 1.  프로젝트 개요
 
 Spotify 앱 사용자 리뷰를 바탕으로 감성(긍정/부정)을 분류하는 자연어처리 모델을 구축합니다.  
 MobileBERT를 활용해 소형 경량화 모델이면서도 높은 정확도를 달성하는 것을 목표로 했습니다.
 
 ---
 
-## 2. 🧾 데이터 정보
+## 2.  데이터 정보
 
 | 항목 | 내용 |
 |------|------|
@@ -28,7 +28,7 @@ MobileBERT를 활용해 소형 경량화 모델이면서도 높은 정확도를 
 
 ---
 
-## 3. ⚙️ 모델 구성
+## 3.  모델 구성
 
 - 모델: `google/mobilebert-uncased`
 - 프레임워크: HuggingFace Transformers + PyTorch
@@ -46,7 +46,7 @@ Weight Decay: 0.01
 
 ---
 
-## 4. 🏗️ 학습 데이터 구성
+## 4.  학습 데이터 구성
 
 - 학습/검증 비율: `train_data.csv` 80% / `val_data.csv` 20%
 - 클래스 균형을 고려해 샘플링됨
@@ -54,7 +54,7 @@ Weight Decay: 0.01
 
 ---
 
-## 5. 🤖 MobileBERT Finetuning 결과
+## 5.  MobileBERT Finetuning 결과
 
 MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증하였습니다.  
 총 Epoch는 3, 학습:검증 비율은 8:2로 설정하였습니다.
@@ -78,10 +78,10 @@ MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증�
 ### 📈 Validation Accuracy  
 <img src="sample_graphs/validation_accuracy.png" width="500"/>
 
-> 🔍 MobileBERT는 epoch이 증가할수록 손실은 줄고, 정확도는 증가하는 양상을 보여 성능 개선이 잘 이뤄졌음을 확인할 수 있었습니다.
+>  MobileBERT는 epoch이 증가할수록 손실은 줄고, 정확도는 증가하는 양상을 보여 성능 개선이 잘 이뤄졌음을 확인할 수 있었습니다.
 
 
-## 6. ▶️ 실행 방법
+## 6.  실행 방법
 
 ```bash
 python main.py
@@ -92,10 +92,10 @@ python main.py
 
 ---
 
-## 7. 📂 프로젝트 구조
+## 7.  프로젝트 구조
 
 ```
-📂 mobilebert_spotify_project/
+ mobilebert_spotify_project/
 ├── README.md
 ├── requirements.txt
 ├── main.py
@@ -116,13 +116,13 @@ python main.py
 
 ---
 
-## 8. 📚 참고 링크
+## 8.  참고 링크
 
 - https://huggingface.co/google/mobilebert-uncased
 - https://github.com/danmadeira/simple-icon-badges
 
 ---
 
-> 👩‍💻 작성자: 어진희  
-> 📝 과제 제출용: 2025년 1학기 기말 프로젝트
+>  작성자: 어진희  
+>  과제 제출용: 2025년 1학기 기말 프로젝트
 
