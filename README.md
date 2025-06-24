@@ -52,7 +52,7 @@ Weight Decay: 0.01
 
 ---
 
-## 4. 🤖 MobileBERT Finetuning 결과
+## 5. 🤖 MobileBERT Finetuning 결과
 
 MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증하였습니다.  
 총 Epoch는 3, 학습:검증 비율은 8:2로 설정하였습니다.
@@ -79,7 +79,7 @@ MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증�
 > 🔍 MobileBERT는 epoch이 증가할수록 손실은 줄고, 정확도는 증가하는 양상을 보여 성능 개선이 잘 이뤄졌음을 확인할 수 있었습니다.
 
 
-## 5. ▶️ 실행 방법
+## 6. ▶️ 실행 방법
 
 ```bash
 python main.py
@@ -90,7 +90,7 @@ python main.py
 
 ---
 
-## 6. 📂 프로젝트 구조
+## 7. 📂 프로젝트 구조
 
 ```
 📂 mobilebert_spotify_project/
@@ -114,7 +114,7 @@ python main.py
 
 ---
 
-## 📚 참고 링크
+## 8. 📚 참고 링크
 
 - https://huggingface.co/google/mobilebert-uncased
 - https://github.com/danmadeira/simple-icon-badges
