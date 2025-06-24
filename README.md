@@ -52,18 +52,7 @@ Weight Decay: 0.01
 
 ---
 
-## 5. 🤖 MobileBERT 학습 결과
-
-| Epoch | Train Loss     | Val Loss     | Val Accuracy |
-|-------|----------------|--------------|--------------|
-| 1     | 441,719.625    | (기록됨)     | 0.72         |
-| 2     | 247,092.375    | (기록됨)     | 0.81         |
-| 3     | 155,913.625    | (기록됨)     | 0.84         |
-
-
-
-
-## 4. MobileBERT Finetuning 결과
+## 4. 🤖 MobileBERT Finetuning 결과
 
 MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증하였습니다.  
 총 Epoch는 3, 학습:검증 비율은 8:2로 설정하였습니다.
@@ -75,23 +64,20 @@ MobileBERT 모델을 `train_data.csv`로 학습하고, `val_data.csv`로 검증�
 - Batch Size: 8
 - Evaluation Strategy: Epoch 단위
 
-###  Training Loss
+| Epoch | Train Loss     | Val Accuracy |
+|-------|----------------|--------------|
+| 1     | 0.65           | 0.72         |
+| 2     | 0.48           | 0.81         |
+| 3     | 0.42           | 0.84         |
+
+### 📉 Training Loss  
 <img src="sample_graphs/training_loss.png" width="500"/>
 
-###  Validation Accuracy
+### 📈 Validation Accuracy  
 <img src="sample_graphs/validation_accuracy.png" width="500"/>
-
----
-
-| Epoch | Training Loss | Validation Accuracy |
-|-------|----------------|---------------------|
-| 1     | 0.65           | 0.72                |
-| 2     | 0.48           | 0.81                |
-| 3     | 0.42           | 0.84                |
 
 > 🔍 MobileBERT는 epoch이 증가할수록 손실은 줄고, 정확도는 증가하는 양상을 보여 성능 개선이 잘 이뤄졌음을 확인할 수 있었습니다.
 
----
 
 ## 5. ▶️ 실행 방법
 
